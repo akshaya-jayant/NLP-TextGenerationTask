@@ -25,7 +25,6 @@ parser.add_argument('--psep', type=int, default=10)
 parser.add_argument('--keyword_data_path', type=str, default="None")
 args = parser.parse_args() 
 
-mecab=MeCab.Tagger("-Ochasen")
 
 print(args.data_path)
 
